@@ -4,9 +4,13 @@
 
 This project implements an advanced image steganography technique that combines the Least Significant Bit (LSB) method with hybrid encryption algorithms. The goal is to provide a secure and efficient way to hide secret messages within BMP image files while maintaining the visual integrity of the carrier image.
 
-The system utilizes the LSB technique to embed encrypted message bits into the least significant bits of the image pixels. This approach ensures minimal distortion to the original image, making the presence of hidden data difficult to detect through visual inspection.
+# The Encryption Pipeline
+1. Apply Blowfish encryption to the the message.
+2. Apply AES (Advanced Encryption Standard) encryption to the now Blowfish encrypted message.
+3. Convert the secret message into binary format and compress the secret message to reduce its size.
+4. Set LSB Embedding Map.
 
-To enhance security, the project incorporates a hybrid encryption scheme that combines the strengths of multiple cryptographic algorithms. This multi-layered approach provides robust protection for the embedded data, making it resistant to various steganalysis attacks.
+![Least significant approach encryption and decryption process.](image.png)
 
 Key aspects of the project include:
 
