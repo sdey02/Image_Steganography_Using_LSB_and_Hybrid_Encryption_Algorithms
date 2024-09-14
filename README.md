@@ -10,7 +10,9 @@ This project implements an advanced image steganography technique that combines 
 3. Convert the secret message into binary format and compress the secret message to reduce its size.
 4. Set LSB Embedding Map.
 
-![Least significant approach encryption and decryption process.](image.png)
+<p align="center">
+  <img src="https://www.mdpi.com/applsci/applsci-13-11771/article_deploy/html/images/applsci-13-11771-g001-550.jpg" />
+</p>
 
 Key aspects of the project include:
 
