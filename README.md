@@ -4,7 +4,7 @@
 
 This project implements an advanced image steganography technique that combines the Least Significant Bit (LSB) method with hybrid encryption algorithms. The goal is to provide a secure and efficient way to hide secret messages within BMP image files while maintaining the visual integrity of the carrier image.
 
-# The Encryption Pipeline
+### The Encryption Pipeline
 1. Apply Blowfish encryption to the the message.
 2. Apply AES (Advanced Encryption Standard) encryption to the now Blowfish encrypted message.
 3. Convert the secret message into binary format and compress the secret message to reduce its size.
