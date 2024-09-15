@@ -33,7 +33,7 @@ This implementation serves as a practical application of cutting-edge research i
 
 ## Requirements
 
-- C++ compiler (C++11 or later recommended)
+- C++ compiler (C++20 or later recommended)
 - Standard C++ libraries
 
 ## Installation

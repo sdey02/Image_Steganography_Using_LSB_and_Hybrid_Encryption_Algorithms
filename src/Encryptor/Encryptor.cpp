@@ -37,20 +37,10 @@ class Encryptor {
 
         static int AESDecrypt() {
 
-
-            std::unique_ptr<Botan::BlockCipher> AES_256_cipher = Botan::BlockCipher::create("AES-256");
-            AES_256_cipher->set_key(key);
-            AES_256_cipher->encrypt(text);
-
             return
         }
 
         static int BlowfishDecrypt(const std::string &text) {
-
-
-            std::unique_ptr<Botan::BlockCipher> blowfish_cipher = Botan::BlockCipher::create("Blowfish");
-            blowfish_cipher->set_key(key);
-            blowfish_cipher->encrypt(text);
 
             return
         }
