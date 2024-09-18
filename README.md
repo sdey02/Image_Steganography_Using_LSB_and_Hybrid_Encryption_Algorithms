@@ -4,6 +4,14 @@
 
 This project implements an advanced image steganography technique that combines the Least Significant Bit (LSB) method with hybrid encryption algorithms. The goal is to provide a secure and efficient way to hide secret messages within BMP image files while maintaining the visual integrity of the carrier image.
 
+Key aspects of the project include:
+
+1. Efficient BMP image processing for reading and writing files
+2. Implementation of the LSB steganography algorithm
+3. Integration of hybrid encryption techniques for message security
+4. Minimal impact on image quality to avoid detection
+5. User-friendly interface for encoding and decoding operations
+
 ### The Encryption Pipeline
 1. Apply Blowfish encryption to the the message.
 2. Apply AES (Advanced Encryption Standard) encryption to the now Blowfish encrypted message.
@@ -13,14 +21,6 @@ This project implements an advanced image steganography technique that combines 
 <p align="center">
   <img src="https://www.mdpi.com/applsci/applsci-13-11771/article_deploy/html/images/applsci-13-11771-g001-550.jpg" />
 </p>
-
-Key aspects of the project include:
-
-1. Efficient BMP image processing for reading and writing files
-2. Implementation of the LSB steganography algorithm
-3. Integration of hybrid encryption techniques for message security
-4. Minimal impact on image quality to avoid detection
-5. User-friendly interface for encoding and decoding operations
 
 This implementation serves as a practical application of cutting-edge research in the field of information hiding and cryptography, offering a powerful tool for secure communication through digital images.
 
@@ -35,6 +35,7 @@ This implementation serves as a practical application of cutting-edge research i
 
 - C++ compiler (C++20 or later recommended)
 - Standard C++ libraries
+- Botan Library
 
 ## Installation
 
@@ -50,3 +51,9 @@ This implementation serves as a practical application of cutting-edge research i
 ## Usage
 
 To compile the program, use the following command:
+   ```
+  cd build
+   ```
+   ```
+  make
+   ```

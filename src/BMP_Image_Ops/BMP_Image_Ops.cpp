@@ -11,16 +11,14 @@ Color::~Color() {
 }
 
 // BMP_Image_OPS class implementations
-BMP_Image_OPS::BMP_Image_OPS(int width, int height) {
-
-}
+BMP_Image_OPS::BMP_Image_OPS(int width, int height) : m_width(width), m_height(height), m_colors(std::vector<Color>(width * height)) {}
 
 BMP_Image_OPS::~BMP_Image_OPS() {
 
 }
 
 Color BMP_Image_OPS::GetColor(int x, int y) const {
-
+    return m_colors[y * m_width + x];
 }
 
 void BMP_Image_OPS::SetColor(const Color color, int x, int y) {
