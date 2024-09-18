@@ -1,28 +1,32 @@
-#include <iostream>
-#include <string_view>
-#include <vector>
-#include <bitset>
+#include "BMP_Image_Ops.hpp"
+#include <fstream>
 
-struct Color{
-    float r, g, b;
+// Color struct implementations
+Color::Color() : r(0), g(0), b(0) {}
 
-    Color();
-    Color(float r, float g, float b);
-    ~Color();
-};
+Color::Color(float r, float g, float b) : r(r), g(g), b(b) {}
 
-class BMP_Image_OPS {
-    private:
-        int m_width();
-        int m_height();
-        std::vector<Color> m_colors;
+Color::~Color() {
+    
+}
 
-    public:
-        BMP_Image_OPS(int width, int height);
-        ~BMP_Image_OPS();
+// BMP_Image_OPS class implementations
+BMP_Image_OPS::BMP_Image_OPS(int width, int height) {
 
-        Color GetColor(int x, int y) const;
-        void SetColor(const Color, int x, int y);
-        
-        void Export(const char* path) const;
-};
+}
+
+BMP_Image_OPS::~BMP_Image_OPS() {
+
+}
+
+Color BMP_Image_OPS::GetColor(int x, int y) const {
+
+}
+
+void BMP_Image_OPS::SetColor(const Color color, int x, int y) {
+ 
+}
+
+void BMP_Image_OPS::Export(const char* path) const {
+
+}
