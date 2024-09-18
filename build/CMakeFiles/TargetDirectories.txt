@@ -1,2 +1,0 @@
-/Users/sdey02/Downloads/Projects/Image_Steganography_Using_LSB_and_ Hybrid_Encryption_Algorithms/build/CMakeFiles/edit_cache.dir
-/Users/sdey02/Downloads/Projects/Image_Steganography_Using_LSB_and_ Hybrid_Encryption_Algorithms/build/CMakeFiles/rebuild_cache.dir
