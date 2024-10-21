@@ -23,5 +23,6 @@ class BMP_Image_OPS {
         Color GetColor(int x, int y) const;
         void SetColor(const Color, int x, int y);
         
+        void Read(const char* path);
         void Export(const char* path) const;
 };

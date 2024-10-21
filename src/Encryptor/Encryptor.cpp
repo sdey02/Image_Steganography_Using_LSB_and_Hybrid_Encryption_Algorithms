@@ -16,7 +16,7 @@ class Encryptor {
         }
 
         static int Blowfish_Key_Gen() {
-
+                
             return
         }
 
